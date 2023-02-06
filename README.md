@@ -23,3 +23,7 @@ Data can be loaded via https://mapeditor.hesi.energy/editor# (need an account)
 This tool looks at the costs (both investing and operational) and environmental impacts. Additionally, the tool also has modelled the energy needs of industries, whereas normally it only looks at households. It is also possible to download objects from ESDL (specifically the Map editor). The tool consists of an underlying model and a graphical interface layerd above it. 
 
 More information about the underlying model can be found in the internship report.
+
+### Structure
+
+The code consist of District-heating.alp and District-heating-UI.alp. The former is the model with all the code of actions, the latter contains graphical elements that together create the graphical model. In the main there are also a lot of .esdl files. These files contain data that is downloaded via the mapeditor (ESDL) and that can be imported via the ESDL-importer (https://github.com/HMels/ESDL-importer). There are also a lot of images in the file. These are to be used to make the model more graphically understandable, and therefore are not to be deleted.
