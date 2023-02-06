@@ -7,6 +7,17 @@ District Heating is a tool written by Mels Habold for his internship at ZEnMo. T
 
 This tool is based in the Agent Based Language called Anylogic, which combines a visual mode of programming with javascript. Installment can be done by installing Anylogic via their site. Warning, a student licence is needed.
 
+Data can be loaded via https://mapeditor.hesi.energy/editor# (need an account)
+
+    draw an area and rightclick and 'press request BAG building' to load BAG data
+    Not all buildings are loaded, these can be handdrawn by selecting building, drawing polygons and filling in extra building information.
+        Make sure you add an BuildingUnit to the buildings Asset with the right info in it
+    Add a HeatNetwork, HeatingDemand and ElectricityDemand somewhere
+        The HeatNetwork must be placed at the point where the central pipe will be split off into the individual pipes
+    Add a heater (like BiomassHeater) for the HeatNetwork and place it on its wanted location. The same goes for HeatStorage
+    Save and add file to folder where District-heating is. Make sure the file name corresponds to the one found in f_startupESDLimporter
+
+
 ### Features
 
 This tool looks at the costs (both investing and operational) and environmental impacts. Additionally, the tool also has modelled the energy needs of industries, whereas normally it only looks at households. It is also possible to download objects from ESDL (specifically the Map editor). The tool consists of an underlying model and a graphical interface layerd above it. 
