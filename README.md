@@ -22,6 +22,8 @@ Data can be loaded via https://mapeditor.hesi.energy/editor# (need an account)
 
 This tool looks at the costs (both investing and operational) and environmental impacts. Additionally, the tool also has modelled the energy needs of industries, whereas normally it only looks at households. It is also possible to download objects from ESDL (specifically the Map editor). The tool consists of an underlying model and a graphical interface layerd above it. 
 
+![The Graphical Interface](interface.PNG "he Graphical Interface")
+
 More information about the underlying model can be found in the internship report.
 
 ### Structure
